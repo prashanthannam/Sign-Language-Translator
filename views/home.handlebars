@@ -1,0 +1,42 @@
+<div class="container p-md-5">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="jumbotron bg-white shadow">
+                <div class="d-flex justify-content-center">
+                    <h1>{{title}}</h1>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="rounded bg-dark pl-2 pr-2 pt-2 pb-1">
+                <video id="webcam" width="100%" autoplay></video>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="rounded bg-white shadow h-100 text-center align-middle pl-2 pr-2 pt-2 pb-1">
+                        <canvas id="preview" width="100%"></canvas>
+                    </div>
+                </div>
+                <div class="col-md-3 text-center align-middle">
+                    <div class="rounded bg-white h-100 shadow pl-2 pr-2 pt-2 pb-1">
+                        <canvas id="processed" width="100%" height="100%"></canvas>
+                    </div>
+                </div>
+                <div class="col-md-3 text-center align-middle">
+                    <div class="rounded bg-white shadow h-100 pl-2 pr-2 pt-2 pb-1">
+                        <canvas id="grayscale" width="28" height="28"></canvas>
+                    </div>
+                </div>
+                <div class="col-md-12">
+                    <div class="jumbotron bg-white shadow text-center align-middle mt-3">
+                        <p id="output">Output</p>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    
+</div>

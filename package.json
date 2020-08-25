@@ -1,0 +1,17 @@
+{
+  "name": "sign_language_translator",
+  "version": "1.0.0",
+  "description": "A hand gesture to natural languge translator for american sign language.",
+  "main": "app.js",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "express-handlebars": "^3.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Prashanth",
+  "license": "ISC"
+}
