@@ -3,5 +3,5 @@ The project aims at recognizing sign Gesture images and display the respective a
 
 <div>
 <img src="images/pic1.jpg" width="400">
-<img src="images/pic2.jpg" width="400">
+<img src="images/pic2.jpg" width="500">
 </div>
